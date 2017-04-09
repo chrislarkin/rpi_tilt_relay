@@ -11,7 +11,7 @@ The [Tilt](https://tilthydrometer.com) is a wireless hydrometer that supports th
    
  * Enable python to query bluetooth without being root:
  
-   `sudo setcap cap_net_raw+eip $(eval readlink -f \`which python\`)`
+   ``sudo setcap cap_net_raw+eip $(eval readlink -f `which python`)``
  
  
  * Clone this repo
